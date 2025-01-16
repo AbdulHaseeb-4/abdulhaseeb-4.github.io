@@ -1,7 +1,11 @@
-body{
-    background-color: lightgrey;
-
+body::after {
+    content: ""; background-image: url('./my.jpg'); background-size: 1300px 1700px; opacity: 0.5; top: 0; left: 0; bottom: -210px; right: 0; position: absolute; z-index: -1;
 }
+
+
+
+
+
 * {
     /* text-align: center; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -9,3 +13,4 @@ body{
 h1,h2 {
     text-align: center;
 }
+
